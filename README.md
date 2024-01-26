@@ -1,64 +1,27 @@
-# Implementación de Proyecto de Adopción de Mascotas
+# Evaluación Intermedia.
+## Desarrollo de un Sistema de Evaluación Estudiantil.
 
-Este proyecto implementa un sistema de adopción de mascotas utilizando un diseño de aplicaciones de 3 capas en el desarrollo web. El diseño consta de las siguientes capas:
+Desarrollar un sistema de evaluación estudiantil utilizando las librerías revisadas en la Unidad 2.
 
-1. **Presentación (Interfaz de usuario):** Implementada con React.
-2. **Lógica de Negocio (Procesamiento de Datos):** Manejada en el frontend con React y en el backend con Express.
-3. **Acceso a Datos (Interacción con la Base de Datos):** Simulada con archivos JSON en este ejemplo.
 
-## Requisitos Previos
-
-Asegúrate de tener instalado Node.js en tu sistema antes de ejecutar la aplicación. Puedes descargarlo desde [la página oficial de Node.js](https://nodejs.org/).
-
-## Estructura del Proyecto
-
-El proyecto sigue la estructura de una aplicación de 3 capas:
-
-``` markdown
-adopcion-mascotas/
-|-- backend/
-| |-- node_modules/
-| |-- routes/
-| |-- database/
-| |-- server.js
-| |-- dogs.js
-| |-- adopters.js
-| |-- adoptions.js
-|-- frontend/
-| |-- node_modules/
-| |-- public/
-| |-- src/
-| |-- assets/
-| |-- components/
-| |-- App.jsx
-| |-- AdoptionForm.jsx
-| |-- index.jsx
-| |-- package.json
-|-- .gitignore
-|-- README.md
-```
 ## Implementación Paso a Paso
 
 ### 1. Clona el Repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/adopcion-mascotas.git
-cd adopcion-mascotas
+git clone https://github.com/DyalnGReinosoT/Evalucion.git
 ```
 ### 2. Configura el Backend
 ``` bash
 cd backend
-npm init -y
-npm install express cors
+npm install
 ```
 Edita server.js y otros archivos según tus necesidades.
 
 ### 3. Configura el Frontend
 ```bash
 cd frontend
-npm init -y
-npm install react react-dom
-npm install -D @vitejs/plugin-react eslint
+npm install 
 ```
 Edita ``App.jsx`` y otros archivos según tus necesidades.
 
@@ -74,9 +37,7 @@ El servidor estará disponible en [http://localhost:3001](http://localhost:3001)
 cd frontend
 npm run dev
 ```
-La aplicación estará disponible en http://localhost:3000.
+La aplicación esta desarrollo por vite y react [http://localhost:5173](http://localhost:5173/)
 
-### 6. Abre tu Navegador
-Ve a [http://localhost:3000](http://localhost:3000) para ver la aplicación de adopción de mascotas.
 
 ¡Listo! Ahora puedes explorar y personalizar este proyecto de acuerdo con tus necesidades.
